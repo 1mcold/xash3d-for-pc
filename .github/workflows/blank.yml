@@ -2,7 +2,7 @@ name: Keep Bot Alive
 
 on:
   schedule:
-    - cron: "*/2 * * * *"  # каждые 5 минут
+    - cron: "*/1 * * * *"  # каждые 5 минут
   workflow_dispatch:        # возможность запускать вручную
 
 jobs:
